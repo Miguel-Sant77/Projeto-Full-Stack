@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Store - Cadastro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tech Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Carrinho</a></li>   
+                <li><a href="signup.html">Cadastro</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="about.html">Sobre Nós</a></li> 
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Cadastrar-se</h2>
+        <form id="signup-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" required>
+            <small id="name-error" class="error-message"></small>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <small id="email-error" class="error-message"></small>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" required>
+            <small id="password-error" class="error-message"></small>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+        <div id="success-message" class="success-message"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tech Store</p>
+    </footer>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</body>
+</html>
