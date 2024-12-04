@@ -3,7 +3,7 @@ const products = [
         id: 1,
         name: 'Fone de Ouvido',
         price: 'R$ 199,90',
-        image: 'https://qcybrasil.com/cdn/shop/files/Fone_de_ouvido_sem_fio_QCY_T13_ANC_2_Preto_2.jpg?v=1726077394'
+        image: 'https://cdn.awsli.com.br/2500x2500/1307/1307157/produto/138258516/cd9356d94a.jpg'
     },
     {
         id: 2,
